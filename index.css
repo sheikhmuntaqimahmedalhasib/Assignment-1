@@ -38,7 +38,7 @@ nav {
 
 
 button {
-  background: #1f7a4f;
+  background: #30B868;
   color: white;
   padding: 10px 16px;
   text-decoration: none;
@@ -76,12 +76,12 @@ button:hover {
   text-align: center;
 }
 
-.hf {
+.h1 {
   font-size: 56px;
   font-weight: 600;
 }
 
-.hs {
+.h2 {
   font-size: 56px;
   font-weight: 600;
   color: #30B868;
@@ -101,3 +101,66 @@ button:hover {
   font-size: 15px;
 }
 
+.h3 { 
+  font-size: 56px;
+  font-weight: 600;
+  color: #001931;
+}
+
+.third {
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.third-content {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.third-content p {
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(14, 14, 14, 0.05);
+  transition: 0.3s;
+  color: black;
+}
+
+.card:hover {
+   background:black;
+   color: white;
+}
+
+.card:hover h3, .card:hover .pp {
+  color: white;
+}
+
+.iconn {
+  width: 50px;
+  height: 50px;
+  background: #ef4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.iconn img {
+  width: 25px;
+}
