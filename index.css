@@ -34,33 +34,45 @@ nav {
 
 .nav-links a:hover {
   color: blue;
+  cursor: pointer;
 }
 
-
-button {
+.button {
   background: #30B868;
   color: white;
   padding: 10px 16px;
-  text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  display: inline-flex; 
+  align-items: center;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
 }
 
-
-button:hover {
-  background: red;
+.button img {
+  width: 16px;
+  height: 16px;
 }
 
 .button2 {
   padding: 10px 16px;
-  border-radius: 5px;
-  text-decoration: none;
+  border-radius: 6px;
   color: white;
   background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
+.button:hover,
 .button2:hover {
-  background: red; 
+  background: red;
   color: white;
+}
+
+.button-group {
+   display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .hero {
@@ -136,7 +148,7 @@ button:hover {
   background: #ffffff;
   padding: 30px 20px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(14, 14, 14, 0.05);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
   transition: 0.3s;
   color: black;
 }
@@ -163,4 +175,46 @@ button:hover {
 
 .iconn img {
   width: 25px;
+}
+
+.forth {
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.forth-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  gap: 60px;
+}
+
+
+.cc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: #001931;
+}
+
+.cc img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.h4 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #001931;
+}
+
+h5 {
+  color: #30B868;
+}
+
+.p4 {
+  font-size: 15px;
 }
